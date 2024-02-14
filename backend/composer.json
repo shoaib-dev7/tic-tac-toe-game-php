@@ -1,0 +1,17 @@
+{
+    "name": "your-username/tic-tac-toe",
+    "description": "Tic Tac Toe game implemented in PHP and MySQL.",
+    "type": "project",
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ramsey/uuid": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "src/Controller",
+            "Model\\": "src/Model",
+            "Helper\\": "src/Helper"
+        }
+    }
+}
